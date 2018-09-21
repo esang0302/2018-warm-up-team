@@ -12,6 +12,10 @@
 
 
 ### 목적
+*
+*
+*
+### 
 ### Raspberry pi
 ### Apache Web server django application
 ### DB
