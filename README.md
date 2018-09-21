@@ -12,8 +12,7 @@
 
 
 ### 목적
-### Raspberry pi 
-### Server
+### Raspberry pi
 ### Apache Web server django application
 ### DB
 ### PC Web browser 
