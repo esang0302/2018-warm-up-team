@@ -1,4 +1,5 @@
-# 2018-warm-up-team
+# 화재 경보 시스템
+
 
 
 
@@ -6,6 +7,10 @@
 
 ##  팀 소개
 * 팀장: 전진우 팀원: 나윤호 김진우
+
+
+
+
 
 ## 목표
 
@@ -23,13 +28,32 @@ Raspberry Pi 와 Ubuntu machine을 서버로 이용한 network service를 창안
 
   > Git으로 source를 관리해야 하며, 완성되면 github repository의 URL을 제출한다. 발표할 PPT 파일도 이 repository에 저장해야 한다. (Markdown 언어로 작성해도 좋다.)
 
+
+
+
+
 ### 목적
-*
-*
-*
+* 온도센서를 이용해, 일정 온도 이상 올라갔을 시 피에조센서를 통하여 알람소리를 내어 사용자에게 위험을 알리며, 서버(db)에는 현재 온도 및 경고 기록을 저장한다. 
+
+
+
+
 
 ### 구성
-#### Raspberry pi
-#### Apache Web server django application
-#### DB
+#### Raspberry pi  <img src="./image/raspberry.png" style="width: 200px;"/>
+
+
+#### Apache Web server django application <img src="./image/server.png" style="width: 200px;"/>
+
+
+#### DB (sqlite) <img src="./image/database.png" style="width: 200px;"/>
+
+
 #### PC Web browser 
+
+
+
+#### 시스템 구성도 <img src="./image/organization.JPG">
+
+
+### Question and Answer
