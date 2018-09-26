@@ -1,33 +1,34 @@
-아두이노 온도센서 코드
-
-int outputpin=A5;
+//아두이노 최종코드I
+int outputpin = A4; 
+int speakerPin = 12;
 
 void setup()
 {
-
-Serial.begin(9600);
-
-
+ Serial.begin(9600); // 시리얼 통신을 열고 속도를 9600bps 사용.
+ 
 }
 
 void loop()
 {
-int reading=analogRead(outputpin);
-float voltage = reading *5.0/1024.0;
-float celsiustemp=(voltage-0.5)*100;
+ 
+ int read = analogRead(outputpin); // 센서로 부터 자료값을 읽음.
+ float v = read * 5.0 / 1024.0;
+ float temp = (v - 0.5) * 100 ;
 
-if (celsiustemp > = 40)
-{
-	serial.println('1');
-	delay(1000);
+ 
+ Serial.println(temp);
+ if (temp >=160)
+ {
+   Serial.println('1');
+   for(int i=0; i<2; i++){
+     tone(speakerPin, 3333, 300);
+     delay(1500);
+   }
+ }
+ 
+ else
+   Serial.println('0');
+   delay(1500);
 }
-
-else
-	serial.println('0');
-	delay(1000);
-
-
-}
-
 
 
