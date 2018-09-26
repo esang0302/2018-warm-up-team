@@ -1,0 +1,33 @@
+아두이노 온도센서 코드
+
+int outputpin=A5;
+
+void setup()
+{
+
+Serial.begin(9600);
+
+
+}
+
+void loop()
+{
+int reading=analogRead(outputpin);
+float voltage = reading *5.0/1024.0;
+float celsiustemp=(voltage-0.5)*100;
+
+if (celsiustemp > = 40)
+{
+	serial.println('1');
+	delay(1000);
+}
+
+else
+	serial.println('0');
+	delay(1000);
+
+
+}
+
+
+
