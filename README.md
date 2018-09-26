@@ -40,13 +40,13 @@ Raspberry Pi 와 Ubuntu machine을 서버로 이용한 network service를 창안
 
 
 ### 구성
-#### Raspberry pi  <img src="./image/raspberry.png" style="width: 200px;"/>
+#### Raspberry pi  <img src="./image/raspberry.png" height="75">
 
 
-#### Apache Web server django application <img src="./image/server.png" style="width: 200px;"/>
+#### Apache Web server django application <img src="./image/server.png" height="75">
 
 
-#### DB (sqlite) <img src="./image/database.png" style="width: 200px;"/>
+#### DB (sqlite) <img src="./image/database.png" height="75">
 
 
 #### PC Web browser 
