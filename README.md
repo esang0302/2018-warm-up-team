@@ -6,8 +6,8 @@
 
 
 ##  팀 소개
-* 팀장: 전진우 팀원: 나윤호 김진우
-
+* 팀장: 전진우 
+* 팀원: 나윤호 김진우
 
 
 
@@ -39,21 +39,12 @@ Raspberry Pi 와 Ubuntu machine을 서버로 이용한 network service를 창안
 
 
 
-### 구성
-#### Raspberry pi  <img src="./image/raspberry.png" height="75">
 
 
-#### Apache Web server django application <img src="./image/server.png" height="75">
-
-
-#### DB (sqlite) <img src="./image/database.png" height="75">
-
-
-#### PC Web browser 
+####  구성도 <img src="./image/organization.JPG">
 
 
 
-#### 시스템 구성도 <img src="./image/organization.JPG">
 
 
 ### Question and Answer
